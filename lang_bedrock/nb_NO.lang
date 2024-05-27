@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Herjing - Gjenstående plyndrere: 0	#
 bar.event.raid.victory=Herjing - Seier	#
 bar.event.raid.defeat=Herjing - Nederlag	#
 
-build.tooHigh.the_end.aspects=§7Virvlende	#
-build.tooHigh.the_end.aspects=§7Virvlende	#
-build.tooHigh.the_end.aspects=§7Virvlende	#
-build.tooHigh.the_end.aspects=§7Virvlende	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Høyden til den øvre byggegrensen er 319	#
 build.tooHigh.the_nether.aspects=Høyden til den øvre byggegrensen er 127	#
-build.tooHigh.the_end.aspects=§7Virvlende	#
 build.tooHigh.the_end.aspects=Høyden til den øvre byggegrensen er 255	#
 build.tooLow.overworld.aspects=Minimum høyde for bygging er -64	#
 build.tooLow.the_nether.aspects=Minimum høyde for bygging er 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Gult tannsnitt i skjoldhodet§r	#
 item.banner.illager=§7Ondsbyboer§r	#
 item.banner_pattern.bricks=§7Mursteinsmønster§r	#
 item.banner_pattern.creeper=§7Smygerfjes§r	#
-item.banner_pattern.flow=§7Virvlende	#
-item.banner_pattern.globe=§7Globus	#
-item.banner_pattern.guster=§7Vindkaster	#
 item.banner_pattern.flower=§7Blomst§r	#
 item.banner_pattern.piglin=§7Snute§r	#
 item.banner_pattern.skull=§7Hodeskalle§r	#
 item.banner_pattern.thing=§7Ting§r	#
 item.banner_pattern.vines=§7Taggete bord	#
-
-
-
-
-

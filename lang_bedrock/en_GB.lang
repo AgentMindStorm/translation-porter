@@ -59,16 +59,11 @@ bar.event.raid.remaining.0=Raid - Raiders remaining: 0	#
 bar.event.raid.victory=Raid - Victory	#
 bar.event.raid.defeat=Raid - Defeat	#
 
-build.tooHigh.the_end.aspects=§7Flow	#
-build.tooHigh.the_end.aspects=§7Flow	#
-build.tooHigh.the_end.aspects=§7Flow	#
-build.tooHigh.the_end.aspects=§7Flow	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Height limit for building is 319	#
 build.tooHigh.the_nether.aspects=Height limit for building is 127	#
-build.tooHigh.the_end.aspects=§7Flow	#
 build.tooHigh.the_end.aspects=Height limit for building is 255	#
 build.tooLow.overworld.aspects=Minimum height for building is -64	#
 build.tooLow.the_nether.aspects=Minimum height for building is 0	#
@@ -929,9 +924,6 @@ item.banner.triangles_top.yellow=§7Yellow Chief Indented§r	#
 item.banner.illager=§7Illager§r	#
 item.banner_pattern.bricks=§7Field Masoned§r	#
 item.banner_pattern.creeper=§7Creeper Charge§r	#
-item.banner_pattern.flow=§7Flow	#
-item.banner_pattern.globe=§7Globe	#
-item.banner_pattern.guster=§7Guster	#
 item.banner_pattern.flower=§7Flower Charge§r	#
 item.banner_pattern.piglin=§7Snout§r	#
 item.banner_pattern.skull=§7Skull Charge§r	#
@@ -1154,8 +1146,3 @@ tile.wooden_door.name=Oak Door	#
 
 pack.name=Java Aspects (Fidelity)	#
 pack.description=Changes textures, sounds, and a lot of other things to be like Java Edition.	#
-
-
-
-
-

@@ -23,16 +23,11 @@ book.defaultAuthor=Autor desconocido	#
 book.editTitle=Título del libro:	#
 book.finalizeWarning=¡Atención! Si lo firmas no será modificable.	#
 
-build.tooHigh.the_end.aspects=§7Espiral	#
-build.tooHigh.the_end.aspects=§7Espiral	#
-build.tooHigh.the_end.aspects=§7Espiral	#
-build.tooHigh.the_end.aspects=§7Espiral	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=El límite de altura para la construcción es de 319 bloques	#
 build.tooHigh.the_nether.aspects=El límite de altura para la construcción es de 127 bloques	#
-build.tooHigh.the_end.aspects=§7Espiral	#
 build.tooHigh.the_end.aspects=El límite de altura para la construcción es de 255 bloques	#
 build.tooLow.overworld.aspects=La altura mínima para la construcción es de -64 bloques	#
 build.tooLow.the_nether.aspects=La altura mínima para la construcción es de 0 bloques	#
@@ -921,9 +916,6 @@ item.banner.triangles_top.yellow=§7Jefe amarillo dentado§r	#
 item.banner.illager=§7Maldeano§r	#
 item.banner_pattern.bricks=§7Mazonado§r	#
 item.banner_pattern.creeper=§7Creeper§r	#
-item.banner_pattern.flow=§7Espiral	#
-item.banner_pattern.globe=§7Planeta	#
-item.banner_pattern.guster=§7Torbellino	#
 item.banner_pattern.flower=§7Flor§r	#
 item.banner_pattern.name=Diseño de estandarte	#
 item.banner_pattern.skull=§7Cráneo§r	#
@@ -2019,8 +2011,3 @@ tips.game.64=Puedes encontrar a los allays en los puestos de vigilancia de los s
 tips.game.65=¡Al allay le encanta recolectar objetos! Si le das un objeto determinado, intentará recolectar más objetos iguales.	#
 tips.game.66=¡A los allays les encanta la música, por lo que siempre interactúan con los bloques musicales!	#
 tips.game.69=¡Usa una botella de agua en un bloque de tierra para obtener lodo!	#
-
-
-
-
-

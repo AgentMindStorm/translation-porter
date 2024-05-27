@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Plyndring - Plyndrere tilbage: 0	#
 bar.event.raid.victory=Plyndring - Sejr	#
 bar.event.raid.defeat=Plyndring - Nederlag	#
 
-build.tooHigh.the_end.aspects=§7Hvirvel	#
-build.tooHigh.the_end.aspects=§7Hvirvel	#
-build.tooHigh.the_end.aspects=§7Hvirvel	#
-build.tooHigh.the_end.aspects=§7Hvirvel	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Højdegrænsen for bygning er 319	#
 build.tooHigh.the_nether.aspects=Højdegrænsen for bygning er 127	#
-build.tooHigh.the_end.aspects=§7Hvirvel	#
 build.tooHigh.the_end.aspects=Højdegrænsen for bygning er 255	#
 build.tooLow.overworld.aspects=Minimumhøjden for byggeri er -64	#
 build.tooLow.the_nether.aspects=Minimumhøjden for byggeri er 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Gule toppigge§r	#
 item.banner.illager=§7Udstødt§r	#
 item.banner_pattern.bricks=§7Murstensfelt§r	#
 item.banner_pattern.creeper=§7Creeperangreb§r	#
-item.banner_pattern.flow=§7Hvirvel	#
-item.banner_pattern.globe=§7Globus	#
-item.banner_pattern.guster=§7Vindvæsen	#
 item.banner_pattern.flower=§7Blomsterangreb§r	#
 item.banner_pattern.piglin=§7Snude§r	#
 item.banner_pattern.skull=§7Kranieangreb§r	#
 item.banner_pattern.thing=§7Ting§r	#
 item.banner_pattern.vines=§7Bræmme med savskure§r	#
-
-
-
-
-

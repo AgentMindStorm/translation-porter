@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Overval - 0 overvaller(s) over	#
 bar.event.raid.victory=Overval - Overwinning	#
 bar.event.raid.defeat=Overval - Verloren	#
 
-build.tooHigh.the_end.aspects=§7Windstroming	#
-build.tooHigh.the_end.aspects=§7Windstroming	#
-build.tooHigh.the_end.aspects=§7Windstroming	#
-build.tooHigh.the_end.aspects=§7Windstroming	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Hoogtelimiet voor bouwen is 319	#
 build.tooHigh.the_nether.aspects=Hoogtelimiet voor bouwen is 127	#
-build.tooHigh.the_end.aspects=§7Windstroming	#
 build.tooHigh.the_end.aspects=Hoogtelimiet voor bouwen is 255	#
 build.tooLow.overworld.aspects=Minimale hoogte voor gebouwen is -64	#
 build.tooLow.the_nether.aspects=Minimale hoogte voor gebouwen is 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Geelgegolfd schildhoofd§r	#
 item.banner.illager=§7Verschoppeling§r	#
 item.banner_pattern.bricks=§7Veld gemetseld§r	#
 item.banner_pattern.creeper=§7Creeperwapen§r	#
-item.banner_pattern.flow=§7Windstroming	#
-item.banner_pattern.globe=§7Globe	#
-item.banner_pattern.guster=§7Rukwind	#
 item.banner_pattern.flower=§7Bloemwapen§r	#
 item.banner_pattern.piglin=§7Snuit§r	#
 item.banner_pattern.skull=§7Schedelwapen§r	#
 item.banner_pattern.thing=§7Ding§r	#
 item.banner_pattern.vines=§7Zoom ingesprongen	#
-
-
-
-
-

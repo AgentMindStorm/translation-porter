@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Roham - Hátralévő támadók: 0	#
 bar.event.raid.victory=Roham - Győzelem	#
 bar.event.raid.defeat=Roham - Vereség	#
 
-build.tooHigh.the_end.aspects=§7Örvény	#
-build.tooHigh.the_end.aspects=§7Örvény	#
-build.tooHigh.the_end.aspects=§7Örvény	#
-build.tooHigh.the_end.aspects=§7Örvény	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Az építés felső határa 319 blokk	#
 build.tooHigh.the_nether.aspects=Az építés felső határa 127 blokk	#
-build.tooHigh.the_end.aspects=§7Örvény	#
 build.tooHigh.the_end.aspects=Az építés felső határa 255 blokk	#
 build.tooLow.overworld.aspects=A minimális építési magasság -64 blokk	#
 build.tooLow.the_nether.aspects=A minimális építési magasság 0 blokk	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Sárga fogas fő§r	#
 item.banner.illager=§7Illager§r	#
 item.banner_pattern.bricks=§7Téglamintás§r	#
 item.banner_pattern.creeper=§7Creeper-roham§r	#
-item.banner_pattern.flow=§7Örvény	#
-item.banner_pattern.globe=§7Földgömb	#
-item.banner_pattern.guster=§7Széllökő	#
 item.banner_pattern.flower=§7Virágroham§r	#
 item.banner_pattern.piglin=§7Orr§r	#
 item.banner_pattern.skull=§7Koponyaroham§r	#
 item.banner_pattern.thing=§7Dolog§r	#
 item.banner_pattern.vines=§7Süllyesztett bordűr	#
-
-
-
-
-

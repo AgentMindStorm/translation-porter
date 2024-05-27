@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Überfall - Verbleibende Räuber: 0	#
 bar.event.raid.victory=Überfall - Sieg	#
 bar.event.raid.defeat=Überfall - Niederlage	#
 
-build.tooHigh.the_end.aspects=§7Fluss	#
-build.tooHigh.the_end.aspects=§7Fluss	#
-build.tooHigh.the_end.aspects=§7Fluss	#
-build.tooHigh.the_end.aspects=§7Fluss	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Die maximale Bauhöhe beträgt 319	#
 build.tooHigh.the_nether.aspects=Die maximale Bauhöhe beträgt 127	#
-build.tooHigh.the_end.aspects=§7Fluss	#
 build.tooHigh.the_end.aspects=Die maximale Bauhöhe beträgt 255	#
 build.tooLow.overworld.aspects=Die Mindesthöhe zum Bauen beträgt -64	#
 build.tooLow.the_nether.aspects=Die Mindesthöhe zum Bauen beträgt 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Gelbes gespickeltes Bannerhaupt§r	#
 item.banner.illager=§7Illager§r	#
 item.banner_pattern.bricks=§7Gemauertes Feld§r	#
 item.banner_pattern.creeper=§7Creeper§r	#
-item.banner_pattern.flow=§7Fluss	#
-item.banner_pattern.globe=§7Globus	#
-item.banner_pattern.guster=§7Windstoßer	#
 item.banner_pattern.flower=§7Blume§r	#
 item.banner_pattern.piglin=§7Schnauze§r	#
 item.banner_pattern.skull=§7Schädel§r	#
 item.banner_pattern.thing=§7Logo§r	#
 item.banner_pattern.vines=§7Spickelbord	#
-
-
-
-
-

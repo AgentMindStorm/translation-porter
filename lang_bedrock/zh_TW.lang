@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=戰鬥 - 剩餘生物： 0	#
 bar.event.raid.victory=突襲 - 勝利	#
 bar.event.raid.defeat=突襲 - 失敗	#
 
-build.tooHigh.the_end.aspects=§7渦流	#
-build.tooHigh.the_end.aspects=§7渦流	#
-build.tooHigh.the_end.aspects=§7渦流	#
-build.tooHigh.the_end.aspects=§7渦流	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=最大建築高度限制為 319	#
 build.tooHigh.the_nether.aspects=最大建築高度限制為 127	#
-build.tooHigh.the_end.aspects=§7渦流	#
 build.tooHigh.the_end.aspects=最大建築高度限制為 255	#
 build.tooLow.overworld.aspects=建築物的最小高度為 -64	#
 build.tooLow.the_nether.aspects=建築物的最小高度為 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7上側黃色鋸齒§r	#
 item.banner.illager=§7厄民§r	#
 item.banner_pattern.bricks=§7磚牆花紋§r	#
 item.banner_pattern.creeper=§7苦力怕頭形狀§r	#
-item.banner_pattern.flow=§7渦流	#
-item.banner_pattern.globe=§7地球	#
-item.banner_pattern.guster=§7狂風	#
 item.banner_pattern.flower=§7花朵形狀§r	#
 item.banner_pattern.piglin=§7鼻子§r	#
 item.banner_pattern.skull=§7骷髏頭形狀§r	#
 item.banner_pattern.thing=§7Mojang 標誌§r	#
 item.banner_pattern.vines=§7鋸齒框邊§r	#
-
-
-
-
-

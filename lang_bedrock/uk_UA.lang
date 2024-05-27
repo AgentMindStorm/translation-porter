@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Рейд - Залишилося нападників:
 bar.event.raid.victory=Рейд - Перемога	#
 bar.event.raid.defeat=Рейд - Поразка	#
 
-build.tooHigh.the_end.aspects=§7Плин	#
-build.tooHigh.the_end.aspects=§7Плин	#
-build.tooHigh.the_end.aspects=§7Плин	#
-build.tooHigh.the_end.aspects=§7Плин	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Межа висоти будування становить 319	#
 build.tooHigh.the_nether.aspects=Межа висоти будування становить 127	#
-build.tooHigh.the_end.aspects=§7Плин	#
 build.tooHigh.the_end.aspects=Межа висоти будування становить 255	#
 build.tooLow.overworld.aspects=Мінімальна висота будівлі складає -64 блоків	#
 build.tooLow.the_nether.aspects=Мінімальна висота будівлі складає 0 блоків	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Жовті зубці згори§r	#
 item.banner.illager=§7Розбійник§r	#
 item.banner_pattern.bricks=§7Мурований§r	#
 item.banner_pattern.creeper=§7Фігура кріпера§r	#
-item.banner_pattern.flow=§7Плин	#
-item.banner_pattern.globe=§7Глобус	#
-item.banner_pattern.guster=§7Порив	#
 item.banner_pattern.flower=§7Фігура квітки§r	#
 item.banner_pattern.piglin=§7Морда§r	#
 item.banner_pattern.skull=§7Фігура черепа§r	#
 item.banner_pattern.thing=§7Штука§r	#
 item.banner_pattern.vines=§7Зазубрена облямівка	#
-
-
-
-
-

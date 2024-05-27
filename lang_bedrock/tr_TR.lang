@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Baskın - Kalan Yağmacılar: 0	#
 bar.event.raid.victory=Baskın - Zafer	#
 bar.event.raid.defeat=Baskın - Yenilgi	#
 
-build.tooHigh.the_end.aspects=§7Akış	#
-build.tooHigh.the_end.aspects=§7Akış	#
-build.tooHigh.the_end.aspects=§7Akış	#
-build.tooHigh.the_end.aspects=§7Akış	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=İnşa için yükseklik sınırı 319 bloktur	#
 build.tooHigh.the_nether.aspects=İnşa için yükseklik sınırı 127 bloktur	#
-build.tooHigh.the_end.aspects=§7Akış	#
 build.tooHigh.the_end.aspects=İnşa için yükseklik sınırı 255 bloktur	#
 build.tooLow.overworld.aspects=Bina için minimum yükseklik -64 bloktur	#
 build.tooLow.the_nether.aspects=Bina için minimum yükseklik 0 bloktur	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Üstten Sarı Testere Dişi§r	#
 item.banner.illager=§7Serseri Köylü§r	#
 item.banner_pattern.bricks=§7Tuğla Deseni§r	#
 item.banner_pattern.creeper=§7Creeper Şekli§r	#
-item.banner_pattern.flow=§7Akış	#
-item.banner_pattern.globe=§7Dünya	#
-item.banner_pattern.guster=§7Fırtına	#
 item.banner_pattern.flower=§7Çiçek Şekli§r	#
 item.banner_pattern.piglin=§7Burun§r	#
 item.banner_pattern.skull=§7Kurukafa Şekli§r	#
 item.banner_pattern.thing=§7Şey§r	#
 item.banner_pattern.vines=§7Girintili Bordür	#
-
-
-
-
-

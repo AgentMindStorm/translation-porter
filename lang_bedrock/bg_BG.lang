@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Нашествие - Оставащи мобове: 0
 bar.event.raid.victory=Нападение - Победа	#
 bar.event.raid.defeat=Нападение - Загуба	#
 
-build.tooHigh.the_end.aspects=§7Поток	#
-build.tooHigh.the_end.aspects=§7Поток	#
-build.tooHigh.the_end.aspects=§7Поток	#
-build.tooHigh.the_end.aspects=§7Поток	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Максималната височина за строене е 319	#
 build.tooHigh.the_nether.aspects=Максималната височина за строене е 127	#
-build.tooHigh.the_end.aspects=§7Поток	#
 build.tooHigh.the_end.aspects=Максималната височина за строене е 255	#
 build.tooLow.overworld.aspects=Минималната височина за строителство е -64	#
 build.tooLow.the_nether.aspects=Минималната височина за строителство е 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Жълти горни зъбци§r	#
 item.banner.illager=§7Злобар§r	#
 item.banner_pattern.bricks=§7С фон на тухли§r	#
 item.banner_pattern.creeper=§7Лице на крийпър§r	#
-item.banner_pattern.flow=§7Поток	#
-item.banner_pattern.globe=§7Земно кълбо	#
-item.banner_pattern.guster=§7Guster	#
 item.banner_pattern.flower=§7Хералдическо цвете§r	#
 item.banner_pattern.piglin=§7Муцуна§r	#
 item.banner_pattern.skull=§7Череп с кръстосани кости§r	#
 item.banner_pattern.thing=§7Нещо§r	#
 item.banner_pattern.vines=§7Назъбена рамка§r	#
-
-
-
-
-

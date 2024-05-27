@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Invasion - Pillards restants : 0	#
 bar.event.raid.victory=Invasion - Victoire	#
 bar.event.raid.defeat=Invasion - Défaite	#
 
-build.tooHigh.the_end.aspects=§7Tourbillon	#
-build.tooHigh.the_end.aspects=§7Tourbillon	#
-build.tooHigh.the_end.aspects=§7Tourbillon	#
-build.tooHigh.the_end.aspects=§7Tourbillon	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=La hauteur limite de construction est à 319	#
 build.tooHigh.the_nether.aspects=La hauteur limite de construction est à 127	#
-build.tooHigh.the_end.aspects=§7Tourbillon	#
 build.tooHigh.the_end.aspects=La hauteur limite de construction est à 255	#
 build.tooLow.overworld.aspects=La hauteur minimale pour la construction est de -64	#
 build.tooLow.the_nether.aspects=La hauteur minimale pour la construction est de 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Émanchures jaunes mouvant du chef§r	#
 item.banner.illager=§7Illageois§r	#
 item.banner_pattern.bricks=§7Déploiement de maçonnerie§r	#
 item.banner_pattern.creeper=§7Charge de Creeper§r	#
-item.banner_pattern.flow=§7Tourbillon	#
-item.banner_pattern.globe=§7Globe	#
-item.banner_pattern.guster=§7Venteur	#
 item.banner_pattern.flower=§7Charge de fleur§r	#
 item.banner_pattern.piglin=§7Museau§r	#
 item.banner_pattern.skull=§7Charge de crâne§r	#
 item.banner_pattern.thing=§7Chose§r	#
 item.banner_pattern.vines=§7Bordure dentelée	#
-
-
-
-
-

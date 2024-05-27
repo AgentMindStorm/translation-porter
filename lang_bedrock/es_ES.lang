@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Invasión - Asaltantes restantes: 0	#
 bar.event.raid.victory=Invasión - Victoria	#
 bar.event.raid.defeat=Invasión - Derrota	#
 
-build.tooHigh.the_end.aspects=§7Estampado de espiral	#
-build.tooHigh.the_end.aspects=§7Estampado de espiral	#
-build.tooHigh.the_end.aspects=§7Estampado de espiral	#
-build.tooHigh.the_end.aspects=§7Estampado de espiral	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=El límite de altura para la construcción es de 319 bloques	#
 build.tooHigh.the_nether.aspects=El límite de altura para la construcción es de 127 bloques	#
-build.tooHigh.the_end.aspects=§7Estampado de espiral	#
 build.tooHigh.the_end.aspects=El límite de altura para la construcción es de 255 bloques	#
 build.tooLow.overworld.aspects=La altura mínima para construir es de -64 bloques	#
 build.tooLow.the_nether.aspects=La altura mínima para construir es de 0 bloques	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Jefe amarillo dentado§r	#
 item.banner.illager=§7Maldeano§r	#
 item.banner_pattern.bricks=§7Mazonado§r	#
 item.banner_pattern.creeper=§7Estampado de Creeper§r	#
-item.banner_pattern.flow=§7Estampado de espiral	#
-item.banner_pattern.globe=§7Estampado de planeta	#
-item.banner_pattern.guster=§7Estampado de breeze	#
 item.banner_pattern.flower=§7Estampado floral§r	#
 item.banner_pattern.piglin=§7Hocico§r	#
 item.banner_pattern.skull=§7Estampado de calaveras§r	#
 item.banner_pattern.thing=§7Cosa§r	#
 item.banner_pattern.vines=§7Bordura dentada	#
-
-
-
-
-

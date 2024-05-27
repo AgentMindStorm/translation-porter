@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Рейд - Осталось нападающих: 0	#
 bar.event.raid.victory=Рейд - Победа	#
 bar.event.raid.defeat=Рейд - Поражение	#
 
-build.tooHigh.the_end.aspects=§7Поток	#
-build.tooHigh.the_end.aspects=§7Поток	#
-build.tooHigh.the_end.aspects=§7Поток	#
-build.tooHigh.the_end.aspects=§7Поток	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Ограничение строительства по высоте: 319	#
 build.tooHigh.the_nether.aspects=Ограничение строительства по высоте: 127	#
-build.tooHigh.the_end.aspects=§7Поток	#
 build.tooHigh.the_end.aspects=Ограничение строительства по высоте: 255	#
 build.tooLow.overworld.aspects=Минимальная высота строения в блоках: -64	#
 build.tooLow.the_nether.aspects=Минимальная высота строения в блоках: 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Жёлтая зубчатая глава§r	
 item.banner.illager=§7Злодеянин§r	#
 item.banner_pattern.bricks=§7Кирпичная кладка§r	#
 item.banner_pattern.creeper=§7Лицо крипера§r	#
-item.banner_pattern.flow=§7Поток	#
-item.banner_pattern.globe=§7Глобус	#
-item.banner_pattern.guster=§7Дух ветра	#
 item.banner_pattern.flower=§7Цветок§r	#
 item.banner_pattern.piglin=§7Морда§r	#
 item.banner_pattern.skull=§7Череп§r	#
 item.banner_pattern.thing=§7Штука§r	#
 item.banner_pattern.vines=§7Зубчатая кайма	#
-
-
-
-
-

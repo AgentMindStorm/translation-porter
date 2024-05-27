@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Räd - Återstående anfallare: 0	#
 bar.event.raid.victory=Räd - Seger	#
 bar.event.raid.defeat=Räd - Förlust	#
 
-build.tooHigh.the_end.aspects=§7Virvel	#
-build.tooHigh.the_end.aspects=§7Virvel	#
-build.tooHigh.the_end.aspects=§7Virvel	#
-build.tooHigh.the_end.aspects=§7Virvel	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Höjdgränsen för att bygga är 319	#
 build.tooHigh.the_nether.aspects=Höjdgränsen för att bygga är 127	#
-build.tooHigh.the_end.aspects=§7Virvel	#
 build.tooHigh.the_end.aspects=Höjdgränsen för att bygga är 255	#
 build.tooLow.overworld.aspects=Byggnadens minsta höjd är -64	#
 build.tooLow.the_nether.aspects=Byggnadens minsta höjd är 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Gula taggar upptill§r	#
 item.banner.illager=§7Fybo§r	#
 item.banner_pattern.bricks=§7Tegelmönster§r	#
 item.banner_pattern.creeper=§7Creepermönster§r	#
-item.banner_pattern.flow=§7Virvel	#
-item.banner_pattern.globe=§7Glob	#
-item.banner_pattern.guster=§7Vindväsen	#
 item.banner_pattern.flower=§7Blommönster§r	#
 item.banner_pattern.piglin=§7Tryne§r	#
 item.banner_pattern.skull=§7Dödskallemönster§r	#
 item.banner_pattern.thing=§7Mojäng§r	#
 item.banner_pattern.vines=§7Kant	#
-
-
-
-
-

@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=袭击 - 剩余0名袭击者	#
 bar.event.raid.victory=袭击 - 胜利	#
 bar.event.raid.defeat=袭击 - 失败	#
 
-build.tooHigh.the_end.aspects=§7涡流	#
-build.tooHigh.the_end.aspects=§7涡流	#
-build.tooHigh.the_end.aspects=§7涡流	#
-build.tooHigh.the_end.aspects=§7涡流	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=建筑高度限制是319	#
 build.tooHigh.the_nether.aspects=建筑高度限制是127	#
-build.tooHigh.the_end.aspects=§7涡流	#
 build.tooHigh.the_end.aspects=建筑高度限制是255	#
 build.tooLow.overworld.aspects=建筑最低高度是-64	#
 build.tooLow.the_nether.aspects=建筑最低高度是0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7黄色顶波纹§r	#
 item.banner.illager=§7灾厄村民§r	#
 item.banner_pattern.bricks=§7砖纹§r	#
 item.banner_pattern.creeper=§7爬行者头像§r	#
-item.banner_pattern.flow=§7涡流	#
-item.banner_pattern.globe=§7地球	#
-item.banner_pattern.guster=§7旋风	#
 item.banner_pattern.flower=§7花朵图案§r	#
 item.banner_pattern.piglin=§7鼻子§r	#
 item.banner_pattern.skull=§7头颅头像§r	#
 item.banner_pattern.thing=§7Mojang 徽标§r	#
 item.banner_pattern.vines=§7波纹边	#
-
-
-
-
-

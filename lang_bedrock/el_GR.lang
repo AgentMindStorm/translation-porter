@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Επιδρομή - Υπολειπόμενοι Επι�
 bar.event.raid.victory=Επιδρομή - Νίκη	#
 bar.event.raid.defeat=Επιδρομή - Ήττα	#
 
-build.tooHigh.the_end.aspects=§7Ροή	#
-build.tooHigh.the_end.aspects=§7Ροή	#
-build.tooHigh.the_end.aspects=§7Ροή	#
-build.tooHigh.the_end.aspects=§7Ροή	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Το όριο ύψους για χτίσιμο είναι 319	#
 build.tooHigh.the_nether.aspects=Το όριο ύψους για χτίσιμο είναι 127	#
-build.tooHigh.the_end.aspects=§7Ροή	#
 build.tooHigh.the_end.aspects=Το όριο ύψους για χτίσιμο είναι 255	#
 build.tooLow.overworld.aspects=Το ελάχιστο ύψος για χτίσιμο είναι -64	#
 build.tooLow.the_nether.aspects=Το ελάχιστο ύψος για χτίσιμο είναι 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Κίτρινη Οδοντωτή Κορυφή
 item.banner.illager=§7Ωρικός§r	#
 item.banner_pattern.bricks=§7Φόντο Τούβλων§r	#
 item.banner_pattern.creeper=§7Σήμα Κρίπερ§r	#
-item.banner_pattern.flow=§7Ροή	#
-item.banner_pattern.globe=§7Υδρόγειος	#
-item.banner_pattern.guster=§7Ριπή	#
 item.banner_pattern.flower=§7Σήμα Άνθους§r	#
 item.banner_pattern.piglin=§7Μουσούδα§r	#
 item.banner_pattern.skull=§7Σήμα Κρανίου§r	#
 item.banner_pattern.thing=§7Πράγμα§r	#
 item.banner_pattern.vines=§7Περίγραμμα με εσοχές	#
-
-
-
-
-

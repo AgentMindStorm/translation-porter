@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=襲撃 - 残り 襲撃者 数: 0	#
 bar.event.raid.victory=襲撃 - 勝利	#
 bar.event.raid.defeat=襲撃 - 敗北	#
 
-build.tooHigh.the_end.aspects=§7渦巻きの模様	#
-build.tooHigh.the_end.aspects=§7渦巻きの模様	#
-build.tooHigh.the_end.aspects=§7渦巻きの模様	#
-build.tooHigh.the_end.aspects=§7渦巻きの模様	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=限界高度は319です	#
 build.tooHigh.the_nether.aspects=限界高度は127です	#
-build.tooHigh.the_end.aspects=§7渦巻きの模様	#
 build.tooHigh.the_end.aspects=限界高度は255です	#
 build.tooLow.overworld.aspects=建物の最低高度は -64 ブロックです	#
 build.tooLow.the_nether.aspects=建物の最低高度は 0 ブロックです	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7上端に黄色の下向き山形波§r	#
 item.banner.illager=§7邪悪な村人§r	#
 item.banner_pattern.bricks=§7レンガ模様§r	#
 item.banner_pattern.creeper=§7クリーパー模様§r	#
-item.banner_pattern.flow=§7渦巻きの模様	#
-item.banner_pattern.globe=§7地球の模様	#
-item.banner_pattern.guster=§7風巻く者の模様	#
 item.banner_pattern.flower=§7花模様§r	#
 item.banner_pattern.piglin=§7スナウト§r	#
 item.banner_pattern.skull=§7骸骨模様§r	#
 item.banner_pattern.thing=§7何かの模様§r	#
 item.banner_pattern.vines=§7ギザギザな縁	#
-
-
-
-
-

@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Nájazd - Zostávajúcich nájazdníkov: 0	#
 bar.event.raid.victory=Nájazd - Víťazstvo	#
 bar.event.raid.defeat=Nájazd - Porážka	#
 
-build.tooHigh.the_end.aspects=§7Tok	#
-build.tooHigh.the_end.aspects=§7Tok	#
-build.tooHigh.the_end.aspects=§7Tok	#
-build.tooHigh.the_end.aspects=§7Tok	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Výškový limit pre stavanie je 319 kociek	#
 build.tooHigh.the_nether.aspects=Výškový limit pre stavanie je 127 kociek	#
-build.tooHigh.the_end.aspects=§7Tok	#
 build.tooHigh.the_end.aspects=Výškový limit pre stavanie je 255 kociek	#
 build.tooLow.overworld.aspects=Minimálna výška budovy je -64 blokov	#
 build.tooLow.the_nether.aspects=Minimálna výška budovy je 0 blokov	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Žltá zúbkovaná hlava§r	#
 item.banner.illager=§7Záškodník§r	#
 item.banner_pattern.bricks=§7Murované pole§r	#
 item.banner_pattern.creeper=§7Symbol creepera§r	#
-item.banner_pattern.flow=§7Tok	#
-item.banner_pattern.globe=§7Glóbus	#
-item.banner_pattern.guster=§7Fujak	#
 item.banner_pattern.flower=§7Symbol kvetu§r	#
 item.banner_pattern.piglin=§7Rypák§r	#
 item.banner_pattern.skull=§7Symbol lebky§r	#
 item.banner_pattern.thing=§7Vec§r	#
 item.banner_pattern.vines=§7Zúbkovaný okraj	#
-
-
-
-
-

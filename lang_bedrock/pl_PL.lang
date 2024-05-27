@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Najazd - Pozostali najeźdźcy: 0	#
 bar.event.raid.victory=Najazd - Zwycięstwo	#
 bar.event.raid.defeat=Najazd - Porażka	#
 
-build.tooHigh.the_end.aspects=§7Nurt	#
-build.tooHigh.the_end.aspects=§7Nurt	#
-build.tooHigh.the_end.aspects=§7Nurt	#
-build.tooHigh.the_end.aspects=§7Nurt	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Limit wysokości budowania to 319 bloków	#
 build.tooHigh.the_nether.aspects=Limit wysokości budowania to 127 bloków	#
-build.tooHigh.the_end.aspects=§7Nurt	#
 build.tooHigh.the_end.aspects=Limit wysokości budowania to 255 bloków	#
 build.tooLow.overworld.aspects=Minimalna wysokość budynku jest równa -64 blokom	#
 build.tooLow.the_nether.aspects=Minimalna wysokość budynku jest równa 0 blokom	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Żółta głowica ząbkowana§r	#
 item.banner.illager=§7Złosadnik§r	#
 item.banner_pattern.bricks=§7Ceglane tło§r	#
 item.banner_pattern.creeper=§7Głowa creepera§r	#
-item.banner_pattern.flow=§7Nurt	#
-item.banner_pattern.globe=§7Sześcian ziemski	#
-item.banner_pattern.guster=§7Podmuch	#
 item.banner_pattern.flower=§7Symbol kwiatu§r	#
 item.banner_pattern.piglin=§7Ryjek§r	#
 item.banner_pattern.skull=§7Symbol czaszki§r	#
 item.banner_pattern.thing=§7Logo Mojang§r	#
 item.banner_pattern.vines=§7Ząbkowane obramowanie	#
-
-
-
-
-

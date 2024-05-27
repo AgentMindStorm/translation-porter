@@ -5,16 +5,11 @@ bar.event.raid.remaining.0=Invasão - Invasores restantes: 0	#
 bar.event.raid.victory=Invasão - Vitória	#
 bar.event.raid.defeat=Invasão - Derrota	#
 
-build.tooHigh.the_end.aspects=§7Fluxo	#
-build.tooHigh.the_end.aspects=§7Fluxo	#
-build.tooHigh.the_end.aspects=§7Fluxo	#
-build.tooHigh.the_end.aspects=§7Fluxo	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=O limite de construção é 319	#
 build.tooHigh.the_nether.aspects=O limite de construção é 127	#
-build.tooHigh.the_end.aspects=§7Fluxo	#
 build.tooHigh.the_end.aspects=O limite de construção é 255	#
 build.tooLow.overworld.aspects=A altura mínima para a construção é -64	#
 build.tooLow.the_nether.aspects=A altura mínima para a construção é 0	#
@@ -772,16 +767,8 @@ item.banner.triangles_top.yellow=§7Chefe dentado amarelo§r	#
 item.banner.illager=§7Illager§r	#
 item.banner_pattern.bricks=§7Padrão de Alvenaria§r	#
 item.banner_pattern.creeper=§7Divisa de Creeper§r	#
-item.banner_pattern.flow=§7Fluxo	#
-item.banner_pattern.globe=§7Globo	#
-item.banner_pattern.guster=§7Vórtice	#
 item.banner_pattern.flower=§7Divisa de Flor§r	#
 item.banner_pattern.piglin=§7Focinho§r	#
 item.banner_pattern.skull=§7Divisa de Caveira§r	#
 item.banner_pattern.thing=§7Coisa§r	#
 item.banner_pattern.vines=§7Bordadura Denteada	#
-
-
-
-
-

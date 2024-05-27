@@ -129,16 +129,11 @@ bar.event.raid.remaining.0=Incursione - Incursori restanti: 0	#
 bar.event.raid.victory=Incursione - Vittoria	#
 bar.event.raid.defeat=Incursione - Sconfitta	#
 
-build.tooHigh.the_end.aspects=§7Flusso	#
-build.tooHigh.the_end.aspects=§7Flusso	#
-build.tooHigh.the_end.aspects=§7Flusso	#
-build.tooHigh.the_end.aspects=§7Flusso	#
 build.tooHigh=Height limit for building is %s	#
 build.tooLow=Minimum height for building is %s	#
 
 build.tooHigh.overworld.aspects=Il limite di altezza per costruire è 319	#
 build.tooHigh.the_nether.aspects=Il limite di altezza per costruire è 127	#
-build.tooHigh.the_end.aspects=§7Flusso	#
 build.tooHigh.the_end.aspects=Il limite di altezza per costruire è 255	#
 build.tooLow.overworld.aspects=L'altezza minima dell'edificio è -64	#
 build.tooLow.the_nether.aspects=L'altezza minima dell'edificio è 0	#
@@ -1371,9 +1366,6 @@ item.banner.triangles_top.yellow=§7Capo cuneato giallo§r	#
 item.banner.illager=§7Abitore§r	#
 item.banner_pattern.bricks=§7Campo seminato di mattoni§r	#
 item.banner_pattern.creeper=§7Al volto di Creeper§r	#
-item.banner_pattern.flow=§7Flusso	#
-item.banner_pattern.globe=§7Globo	#
-item.banner_pattern.guster=§7Raffica	#
 item.banner_pattern.flower=§7Al fiore§r	#
 item.banner_pattern.piglin=§7Grugno§r	#
 item.banner_pattern.skull=§7Al teschio e tibie incrociate§r	#
@@ -2002,8 +1994,3 @@ tile.tinted_glass.name=Vetro oscurato	#
 tile.smooth_basalt.name=Basalto levigato	#
 
 tile.respawn_anchor.name=Ancora della rinascita	#
-
-
-
-
-
