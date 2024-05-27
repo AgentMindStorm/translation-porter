@@ -105,6 +105,7 @@ int main(int argc, char* argv[]) {
 
     //Sort override (start of alphabetical comparisons)
     std::string sort_override;
+    bool sort_override_enabled = false;
     if (argc > 6) {
         sort_override = argv[6];
         if (sort_override == "NULL") {
@@ -115,6 +116,7 @@ int main(int argc, char* argv[]) {
         std::cout << "No Sort Override" << std::endl << std::endl;
     }
     else {
+        sort_override_enabled = true;
         std::cout << "Start Sort At: " << sort_override << std::endl << std::endl;
     }
 
@@ -222,7 +224,7 @@ int main(int argc, char* argv[]) {
         //Find correct insertion location in lang file
         std::string clean_identifier = base_bedrock_identifier;
         std::string alphabetical_identifier, after_first_period;
-        if (sort_override.empty()) {
+        if (!sort_override_enabled) {
             if (expansion_type != 's') { //Remove VAR part of string
                 clean_identifier = base_bedrock_identifier.substr(0, base_bedrock_identifier.find("VAR"));
             }
@@ -261,7 +263,7 @@ int main(int argc, char* argv[]) {
             }
         }
         //Start alphabetical search through current location
-        while (!copyin.eof() && current_line < bedrock_identifier.at(0)) {
+        while (!copyin.eof() && current_line < bedrock_identifier.at(0) && !(sort_override_enabled && current_line.empty())) { //In sort override, an empty line stops alpha search
             getline(copyin, current_line, '\n');
             pre_insertion_file.push_back(current_line); //Continue to build file
 
@@ -274,7 +276,7 @@ int main(int argc, char* argv[]) {
         }
         //Sometimes, no similar definition is found
         if (copyin.eof()) {
-            if (sort_override.empty()) {
+            if (!sort_override_enabled) {
                 std::cerr << "No similar identifiers found; inserting new lines at end of file." << std::endl;
             }
             else {
@@ -297,6 +299,10 @@ int main(int argc, char* argv[]) {
             }
         }
         copyin.close();
+        //Remove trailing whitespace
+        while (post_insertion_file.back().empty()) {
+            post_insertion_file.pop_back();
+        }
 
         //Insert output definitions
         std::ofstream fout("lang_bedrock/" + bedrock_language.at(i) + ".lang");
@@ -322,7 +328,8 @@ int main(int argc, char* argv[]) {
                 fout << bedrock_identifier.at(k) << "=" << definition.at(k);
                 if (bedrock_language.at(i) != "en_US") {
                     fout << "\t#" << std::endl;
-                } else {
+                }
+                else {
                     fout << std::endl;
                 }
             } else {
