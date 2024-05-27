@@ -21,6 +21,11 @@ This program MUST be run from the command line or PowerShell with 3-5 arguments!
 
     ./translation_porter.exe m effect.minecraft.VAR effect.VAR SECTIONc NULL
 
+# Input and Output Files
+Input files are located in the `lang_java` folder. The files provided with this program are from 24w20a. Use [minecraft-asset-extractor](https://github.com/shivamCode0/minecraft-asset-extractor/tree/main) to extract the latest language files.
+
+Output files are located in the `lang_bedrock` folder. Newly ported definitions are automatically sorted into any existing file in the `lang_bedrock` folder in a roughly alphabetical order, allowing easy future expansion.
+
 # Identifier Expansion
 `s/m/c` means Single, Multiple, or Color. Single ports a single definition from Java to Bedrock. Multiple ports a set of definitions defined in multiple.txt. Color ports a set of definitions specific to the 16 colors of many Minecraft blocks.
 
@@ -44,10 +49,6 @@ To easily write the section code (§) symbol for color formatting in a prefix or
 ### Example:
 
 `SECTIONe` outputs as `§e`. [See a full list of formatting codes here.](https://minecraft.wiki/w/Formatting_codes#Color_codes)
-
-Input files are located in the `lang_java` folder. The files provided with this program are from 24w20a. Use [minecraft-asset-extractor](https://github.com/shivamCode0/minecraft-asset-extractor/tree/main) to extract the latest language files.
-
-Output files are located in the 'lang_bedrock' folder. Newly ported definitions are automatically sorted into any existing file in the 'lang_bedrock' folder in a roughly alphabetical order, allowing easy future expansion.
 
 # License
 Uses the nlohmann-json header for JSON.
