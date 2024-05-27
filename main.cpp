@@ -26,12 +26,12 @@ int main(int argc, char* argv[]) {
 //////
 
     //Validate input arguments
-    //<program.exe> <s/m/c> <java_identifier> <bedrock_identifier> <prefix> <suffix>
-    // s/m/c == single/multiple/color
+    //<program.exe> <s/m/c/n> <java_identifier> <bedrock_identifier> <prefix> <suffix>
+    // s/m/c/n == single/multiple/classic_color/new_color
     // VAR converts to the multiple definitions or the colors in identifiers
     // SECTION converts to § in prefix and suffix
     if (argc < 4) {
-        std::cerr << "Usage: (required) ./translation_translator <s/m/c> <base_java_identifier> <base_bedrock_identifier> (optional) <prefix> <suffix> <sort_override>" << std::endl;
+        std::cerr << "Usage: (required) ./translation_translator <s/m/c/n> <base_java_identifier> <base_bedrock_identifier> (optional) <prefix> <suffix> <sort_override>" << std::endl;
         return -1;
     }
     std::cout << "User-Defined Configuration: " << std::endl;
@@ -45,7 +45,10 @@ int main(int argc, char* argv[]) {
         std::cout << "Expansion Type: Multiple; reads from \"multiple.txt\"." << std::endl;
     }
     else if (expansion_type == 'c') {
-        std::cout << "Expansion Type: 16 Colors; reads from \"colors.txt\"." << std::endl;
+        std::cout << "Expansion Type: 16 Colors (Original Names); reads from \"colors_classic.txt\"." << std::endl;
+    }
+    else if (expansion_type == 'n') {
+        std::cout << "Expansion Type: 16 Colors (New Names); reads from \"colors_new.txt\"." << std::endl;
     }
     else {
         std::cerr << "Expansion type not recognized. Valid characters are s (single), m (multiple), or c (color)." << std::endl;
@@ -104,6 +107,9 @@ int main(int argc, char* argv[]) {
     std::string sort_override;
     if (argc > 6) {
         sort_override = argv[6];
+        if (sort_override == "NULL") {
+            sort_override = "";
+        }
     }
     if (sort_override.empty()) {
         std::cout << "No Sort Override" << std::endl << std::endl;
@@ -129,27 +135,18 @@ int main(int argc, char* argv[]) {
         java_identifier.push_back(base_java_identifier); //Use same system for single identifier to be as easy as possible
         bedrock_identifier.push_back(base_bedrock_identifier);
     }
-    //16 color expansion
-    else if (expansion_type == 'c') {
-        std::vector<std::string> java_color, bedrock_color;
-        if (readConfigFile("colors.txt",java_color,bedrock_color) != 0) {
-            std::cerr << "Aborted. Failed to read colors.txt." << std::endl;
-            return -3;
-        }
-        if (expandIdentifier(base_java_identifier,java_identifier,java_color) != 0) {
-            std::cerr << "Failed to expand list of Java identifiers." << std::endl;
-            return -4;
-        }
-        if (expandIdentifier(base_bedrock_identifier,bedrock_identifier,bedrock_color) != 0) {
-            std::cerr << "Failed to expand list of Bedrock identifiers." << std::endl;
-            return -5;
-        }
-    }
-    //Multiple expansion (user-defined in multiples.txt)
-    else { //Multiple is guaranteed due to error checking above
+    //Multiple or colors expansions
+    else {
         std::vector<std::string> java_multiple, bedrock_multiple;
-        if (readConfigFile("multiple.txt", java_multiple, bedrock_multiple) != 0) {
-            std::cerr << "Aborted. Failed to read multiple.txt." << std::endl;
+        std::string config_file = "multiple.txt";
+        if (expansion_type == 'c') {
+            config_file = "colors_classic.txt";
+        }
+        else if (expansion_type == 'n'){
+            config_file = "colors_new.txt";
+        }
+        if (readConfigFile(config_file, java_multiple, bedrock_multiple) != 0) {
+            std::cerr << "Aborted. Failed to read " << config_file << "." << std::endl;
             return -3;
         }
         if (expandIdentifier(base_java_identifier, java_identifier, java_multiple) != 0) {
