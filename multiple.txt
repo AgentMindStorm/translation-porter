@@ -1,0 +1,2 @@
+example_java1 example_bedrock1
+example_java2 example_bedrock2
