@@ -21,6 +21,7 @@ This program MUST be run from the command line or PowerShell with 3-5 arguments!
 
     ./translation_porter.exe m effect.minecraft.VAR effect.VAR SECTIONc NULL
 
+# Identifier Expansion
 `s/m/c` means Single, Multiple, or Color. Single ports a single definition from Java to Bedrock. Multiple ports a set of definitions defined in multiple.txt. Color ports a set of definitions specific to the 16 colors of many Minecraft blocks.
 
 To use the Multiple setting, the `multiple.txt` file must be configured by the user. The `colors.txt` and `languages.txt` files use the same format. The Java expansions are in the left column, while the Bedrock expansions are in the right column, separated by one space.
@@ -36,7 +37,6 @@ In Multiple mode, the identifier `effect.minecraft.VAR` expands into a user-defi
 Expansions support the two-column format for some identifiers which differ between Java and Bedrock, such as `light_gray` on Java becoming `silver` on Bedrock.
 
 # Prefix and Suffix
-
 A prefix and suffix may be added during a port. These must be the same for all ported identifiers in one execution.
 
 To easily write the section code (§) symbol for color formatting in a prefix or suffix, write SECTION.
