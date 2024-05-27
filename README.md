@@ -19,7 +19,7 @@ This program MUST be run from the command line or PowerShell with 3-5 arguments!
 
 ### Example:
 
-        ./translation_porter.exe m effect.minecraft.VAR effect.VAR SECTIONc NULL
+    ./translation_porter.exe m effect.minecraft.VAR effect.VAR SECTIONc NULL
 
 `s/m/c` means Single, Multiple, or Color. Single ports a single definition from Java to Bedrock. Multiple ports a set of definitions defined in multiple.txt. Color ports a set of definitions specific to the 16 colors of many Minecraft blocks.
 
