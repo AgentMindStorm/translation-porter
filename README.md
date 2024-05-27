@@ -22,14 +22,14 @@ This program MUST be run from the command line or PowerShell with 3-5 arguments!
     ./translation_porter.exe m effect.minecraft.VAR effect.VAR SECTIONc NULL
 
 # Input and Output Files
-Input files are located in the `lang_java` folder. The files provided with this program are from 24w20a. Use [minecraft-asset-extractor](https://github.com/shivamCode0/minecraft-asset-extractor/tree/main) to extract the latest language files.
+Input files are located in the `lang_java` folder next to the executable. The files provided with this program are from 24w20a. Use [minecraft-asset-extractor](https://github.com/shivamCode0/minecraft-asset-extractor/tree/main) to extract the latest language files.
 
-Output files are located in the `lang_bedrock` folder. Newly ported definitions are automatically sorted into any existing file in the `lang_bedrock` folder in a roughly alphabetical order, allowing easy future expansion.
+Output files are located in the `lang_bedrock` folder next to the executable. Newly ported definitions are automatically sorted into any existing file in the `lang_bedrock` folder in a roughly alphabetical order, allowing easy future expansion.
 
 # Identifier Expansion
 `s/m/c` means Single, Multiple, or Color. Single ports a single definition from Java to Bedrock. Multiple ports a set of definitions defined in multiple.txt. Color ports a set of definitions specific to the 16 colors of many Minecraft blocks.
 
-To use the Multiple setting, the `multiple.txt` file must be configured by the user. The `colors.txt` and `languages.txt` files use the same format. The Java expansions are in the left column, while the Bedrock expansions are in the right column, separated by one space.
+All config files are in the same folder as the executable. To use the Multiple setting, the `multiple.txt` file must be configured by the user. The `colors.txt` and `languages.txt` files use the same format. The Java expansions are in the left column, while the Bedrock expansions are in the right column, separated by one space.
 
 The identifiers may take any form without spaces. They are the left side of the language definition in the files, which does not change between languages (the "key"). To define which part of the identifier should be replaced by the multiple or color expansion, write `VAR`.
 
