@@ -31,7 +31,7 @@ int main(int argc, char* argv[]) {
     // VAR converts to the multiple definitions or the colors in identifiers
     // SECTION converts to § in prefix and suffix
     if (argc < 4) {
-        std::cerr << "Usage: (required) ./translation_translator <s/m/c> <base_java_identifier> <base_bedrock_identifier> (optional) <prefix> <suffix>" << std::endl;
+        std::cerr << "Usage: (required) ./translation_translator <s/m/c> <base_java_identifier> <base_bedrock_identifier> (optional) <prefix> <suffix> <sort_override>" << std::endl;
         return -1;
     }
     std::cout << "User-Defined Configuration: " << std::endl;
@@ -94,10 +94,22 @@ int main(int argc, char* argv[]) {
         }
     }
     if (suffix.empty()) {
-        std::cout << "No Suffix" << std::endl << std::endl;
+        std::cout << "No Suffix" << std::endl;
     }
     else {
-        std::cout << "Suffix (Replaced SECTION with §): " << suffix << std::endl << std::endl;
+        std::cout << "Suffix (Replaced SECTION with §): " << suffix << std::endl;
+    }
+
+    //Sort override (start of alphabetical comparisons)
+    std::string sort_override;
+    if (argc > 6) {
+        sort_override = argv[6];
+    }
+    if (sort_override.empty()) {
+        std::cout << "No Sort Override" << std::endl << std::endl;
+    }
+    else {
+        std::cout << "Start Sort At: " << sort_override << std::endl << std::endl;
     }
 
 //////
@@ -211,9 +223,26 @@ int main(int argc, char* argv[]) {
         std::cout << "Opened existing " + bedrock_language.at(i) + ".lang..." << std::endl;
 
         //Find correct insertion location in lang file
+        std::string clean_identifier = base_bedrock_identifier;
+        std::string alphabetical_identifier, after_first_period;
+        if (sort_override.empty()) {
+            if (expansion_type != 's') { //Remove VAR part of string
+                clean_identifier = base_bedrock_identifier.substr(0, base_bedrock_identifier.find("VAR"));
+            }
+            size_t first_period = clean_identifier.find('.');
+            if (first_period != std::string::npos) {
+                alphabetical_identifier = clean_identifier.substr(0,first_period);
+            }
+            else {
+                alphabetical_identifier = clean_identifier;
+            }
+        }
+        else {
+            alphabetical_identifier = sort_override;
+        }
+
+        //Unmodified text handling
         std::string current_line, trimmed_line;
-        std::string alphabetical_identifier;
-        alphabetical_identifier = base_bedrock_identifier.substr(0, base_bedrock_identifier.find(expansion_type == 's' ? "." : "VAR"));
         std::vector<std::string> pre_insertion_file, post_insertion_file;
         bool insert_end = false;
 
@@ -238,10 +267,22 @@ int main(int argc, char* argv[]) {
         while (!copyin.eof() && current_line < bedrock_identifier.at(0)) {
             getline(copyin, current_line, '\n');
             pre_insertion_file.push_back(current_line); //Continue to build file
+
+            //Check for duplicate definitions
+            for (const auto & j : bedrock_identifier) {
+                if (j == current_line.substr(0,current_line.find('='))) {
+                    std::cerr << "Duplicate definition found in " << bedrock_language.at(i) << " on line " << pre_insertion_file.size() << "." << std::endl;
+                }
+            }
         }
         //Sometimes, no similar definition is found
         if (copyin.eof()) {
-            std::cerr << "No similar definitions found; inserting new definitions at end of file." << std::endl;
+            if (sort_override.empty()) {
+                std::cerr << "No similar identifiers found; inserting new lines at end of file." << std::endl;
+            }
+            else {
+                std::cerr << "No existing identifiers found matching sort override \"" << sort_override << "\"; inserting new lines at end of file." << std::endl;
+            }
             insert_end = true;
         }
         //Otherwise, save the rest of the file
@@ -249,6 +290,13 @@ int main(int argc, char* argv[]) {
             while (!copyin.eof()) { //Finish reading file
                 getline(copyin, current_line, '\n');
                 post_insertion_file.push_back(current_line);
+
+                //Check for duplicate definitions
+                for (const auto & j : bedrock_identifier) {
+                    if (j == current_line.substr(0,current_line.find('='))) {
+                        std::cerr << "Duplicate definition found in " << bedrock_language.at(i) << " on line " << pre_insertion_file.size() + post_insertion_file.size() << "." << std::endl;
+                    }
+                }
             }
         }
         copyin.close();
