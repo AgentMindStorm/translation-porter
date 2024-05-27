@@ -46,6 +46,8 @@ A prefix and suffix may be added during a port. These must be the same for all p
 
 To easily write the section code (§) symbol for color formatting in a prefix or suffix, write SECTION.
 
+To indicate no prefix or suffix, write NULL. Although these fields are optional, you may want to add a suffix without adding a prefix.
+
 ### Example:
 
 `SECTIONe` outputs as `§e`. [See a full list of formatting codes here.](https://minecraft.wiki/w/Formatting_codes#Color_codes)
