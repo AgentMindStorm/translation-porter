@@ -300,8 +300,10 @@ int main(int argc, char* argv[]) {
         }
         copyin.close();
         //Remove trailing whitespace
-        while (post_insertion_file.back().empty()) {
-            post_insertion_file.pop_back();
+        if (!post_insertion_file.empty()) {
+            while (post_insertion_file.back().empty() && !post_insertion_file.empty()) {
+                post_insertion_file.pop_back();
+            }
         }
 
         //Insert output definitions
@@ -319,7 +321,7 @@ int main(int argc, char* argv[]) {
 
         //Add extra space for end insertion
         if (insert_end) {
-            fout << std::endl;
+            fout << pre_insertion_file.at(pre_insertion_file.size() - 1) << std::endl;
         }
 
         //Print new lines to Bedrock output file
@@ -338,9 +340,13 @@ int main(int argc, char* argv[]) {
         }
 
         //Print remaining lines
-        fout << pre_insertion_file.at(pre_insertion_file.size()-1) << std::endl;
-        for (const auto & l : post_insertion_file) {
-            fout << l << std::endl;
+        if (!insert_end) {
+            fout << pre_insertion_file.at(pre_insertion_file.size() - 1) << std::endl;
+            if (!post_insertion_file.empty()) {
+                for (const auto &l: post_insertion_file) {
+                    fout << l << std::endl;
+                }
+            }
         }
 
         fout.close();
