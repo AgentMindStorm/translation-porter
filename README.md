@@ -1,5 +1,5 @@
 # Purpose
-Ports a user-defined set of identifiers from Java Edition to Bedrock Edition. Features:
+Ports a user-defined set of identifiers from Minecraft: Java Edition to Bedrock Edition. Features:
  - User-defined language pairs, allowing cross-language porting (You could port Pirate Speak on Java to en_US on Bedrock)
  - User-defined identifier pairs, for identifiers which do not match on both platforms
  - Expandable identifier sets, used when porting colors, potion effects, or other multi-identifier definitions
