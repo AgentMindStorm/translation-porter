@@ -28,13 +28,13 @@ In the past, a bug was found which caused infinite file writing unless the progr
 **To manually stop the program while in a command line, press `Ctrl+C`.** You can tell the program is stuck if the output freezes without outputting "Task completed successfully!" for longer than a second.
 
 # Input and Output Files
-Input files are located in the `lang_java` folder next to the executable. The files provided with this program are from 24w20a. Use [minecraft-asset-extractor](https://github.com/shivamCode0/minecraft-asset-extractor/tree/main) to extract the latest language files.
+Input files are placed in the `lang_java` folder next to the executable. Use [minecraft-asset-extractor](https://github.com/shivamCode0/minecraft-asset-extractor/tree/main) to extract the latest language files. Place the language files (such as `en_us.json`) directly into `lang_java`.
 
-Output files are located in the `lang_bedrock` folder next to the executable. Newly ported definitions are automatically sorted into any existing file in the `lang_bedrock` folder in a roughly alphabetical order (see "Sort Override" below), allowing easy future expansion.
+Output files are placed in the `lang_bedrock` folder next to the executable. Newly ported definitions are automatically sorted into any existing file such as `en_US.lang` in the `lang_bedrock` folder in a roughly alphabetical order (see **Sort Override** below).
 
-The program can be run multiple times with different parameters on the same set of Bedrock files—the `lang_bedrock` files are modified, not overwritten!
+The program can be run multiple times with different parameters on the same set of Bedrock files. The `lang_bedrock` files are modified, not overwritten!
 
-This program does not prevent porting duplicate identifiers, but it will print a message when a duplicate is found in the existing Bedrock file.
+This program does not prevent porting duplicate identifiers, but it will print a message when a duplicate identifier is found in the existing Bedrock file.
 
 # Identifier Expansion
 `s/m/c/n` means Single, Multiple, Classic Color, or New Color. Single ports a single definition from Java to Bedrock. Multiple ports a set of definitions defined in `multiple.txt`. Both Color options port a set of definitions specific to the 16 colors of many Minecraft blocks.

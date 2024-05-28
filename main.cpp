@@ -336,7 +336,7 @@ int main(int argc, char* argv[]) {
                 }
             }
             else {
-                std::cerr << "Skipped missing definition " << java_identifier.at(k) << " -> " << bedrock_identifier.at(k) << " (Java->Bedrock identifier)." << std::endl;
+                std::cerr << "Skipped missing definition for " << java_identifier.at(k) << " -> " << bedrock_identifier.at(k) << " (Java -> Bedrock)." << std::endl;
             }
         }
 
