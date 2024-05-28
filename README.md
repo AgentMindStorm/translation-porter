@@ -16,11 +16,16 @@ Without this command, output files will be created using ANSI instead of UTF-8, 
 
 This program MUST be run from the command line or PowerShell with 3-5 arguments! (Prefix, suffix, and sort override are optional.)
 
-    ./translation_porter.exe <s/m/c> <java_identifier> <bedrock_identifier> <prefix> <suffix> <sort_override>
+    ./translation_porter.exe <s/m/c/n> <java_identifier> <bedrock_identifier> <prefix> <suffix> <sort_override>
 
 ### Example:
 
     ./translation_porter.exe m effect.minecraft.VAR effect.VAR SECTIONc NULL effect.badOmen
+    
+# Blowup Prevention
+In the past, a bug was found which caused infinite file writing unless the program was manually ended. There are no known blowup bugs in the current version, but if you find one, **report it immediately** and include the file and arguments that caused the blowup.
+
+**To manually stop the program while in a command line, press `Ctrl+C`.** You can tell the program is stuck if the output freezes without outputting "Task completed successfully!" for longer than a second.
 
 # Input and Output Files
 Input files are located in the `lang_java` folder next to the executable. The files provided with this program are from 24w20a. Use [minecraft-asset-extractor](https://github.com/shivamCode0/minecraft-asset-extractor/tree/main) to extract the latest language files.

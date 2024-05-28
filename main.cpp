@@ -6,7 +6,6 @@
 #include <vector>
 #include "json.hpp"
 using json = nlohmann::json;
-using namespace std;
 
 int readConfigFile(const std::string& input_filename,std::vector<std::string> &java_vector,std::vector<std::string> &bedrock_vector);
 int expandIdentifier(std::string base_identifier,std::vector<std::string> &identifier_list,const std::vector<std::string> &expansion_list);
@@ -30,6 +29,7 @@ int main(int argc, char* argv[]) {
     // s/m/c/n == single/multiple/classic_color/new_color
     // VAR converts to the multiple definitions or the colors in identifiers
     // SECTION converts to § in prefix and suffix
+    // NULL indicates to exclude that argument, for the optional args
     if (argc < 4) {
         std::cerr << "Usage: (required) ./translation_translator <s/m/c/n> <base_java_identifier> <base_bedrock_identifier> (optional) <prefix> <suffix> <sort_override>" << std::endl;
         return -1;
@@ -51,7 +51,7 @@ int main(int argc, char* argv[]) {
         std::cout << "Expansion Type: 16 Colors (New Names); reads from \"colors_new.txt\"." << std::endl;
     }
     else {
-        std::cerr << "Expansion type not recognized. Valid characters are s (single), m (multiple), or c (color)." << std::endl;
+        std::cerr << "Expansion type not recognized. Valid characters are s (single), m (multiple), c (classic color), or n (new color)." << std::endl;
         return -10;
     }
 
@@ -245,7 +245,7 @@ int main(int argc, char* argv[]) {
         std::vector<std::string> pre_insertion_file, post_insertion_file;
         bool insert_end = false;
 
-        //Find similar structure to base identifier before VAR
+        //Find similar structure to base identifier
         while (!copyin.eof() && alphabetical_identifier != trimmed_line) {
             getline(copyin, current_line, '\n');
             pre_insertion_file.push_back(current_line); //Build file
@@ -334,8 +334,9 @@ int main(int argc, char* argv[]) {
                 else {
                     fout << std::endl;
                 }
-            } else {
-                std::cerr << "Skipped missing definition." << std::endl;
+            }
+            else {
+                std::cerr << "Skipped missing definition " << java_identifier.at(k) << " -> " << bedrock_identifier.at(k) << " (Java->Bedrock identifier)." << std::endl;
             }
         }
 
@@ -360,7 +361,7 @@ int main(int argc, char* argv[]) {
 int expandIdentifier(std::string base_identifier,std::vector<std::string> &identifier_list,const std::vector<std::string> &expansion_list) {
 
     size_t insertion_point = base_identifier.find("VAR");
-    if (insertion_point == string::npos) {
+    if (insertion_point == std::string::npos) {
         std::cerr << "Text \"VAR\" not found in input string." << std::endl;
         return -1;
     }
