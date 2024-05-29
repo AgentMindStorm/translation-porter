@@ -30,7 +30,7 @@ In the past, a bug was found which caused infinite file writing unless the progr
 # Input and Output Files
 Input files are placed in the `lang_java` folder next to the executable. Use [minecraft-asset-extractor](https://github.com/shivamCode0/minecraft-asset-extractor/tree/main) to extract the latest language files. Place the language files (such as `en_us.json`) directly into `lang_java`.
 
-Output files are placed in the `lang_bedrock` folder next to the executable. Newly ported definitions are automatically sorted into any existing file such as `en_US.lang` in the `lang_bedrock` folder in a roughly alphabetical order (see **Sort Override** below).
+Output files are placed in the `lang_bedrock` folder next to the executable. Newly ported definitions are automatically sorted into any existing file (such as `en_US.lang`) in the `lang_bedrock` folder in a roughly alphabetical order (see **Sort Override** below).
 
 The program can be run multiple times with different parameters on the same set of Bedrock files. The `lang_bedrock` files are modified, not overwritten!
 
